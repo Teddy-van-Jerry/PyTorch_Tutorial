@@ -7,3 +7,4 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 
 ## Contents List
 - `Lec 1.py`: Tensor Basics
+- `Lec 2.py`: Autograd
