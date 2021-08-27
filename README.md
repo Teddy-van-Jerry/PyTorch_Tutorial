@@ -6,5 +6,6 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 - Original sourse code for the tutorial: [python-engineer/pytorchTutorial](https://github.com/python-engineer/pytorchTutorial)
 
 ## Contents List
-- `Lec 1.py`: Tensor Basics
-- `Lec 2.py`: Autograd
+- `Lec 2.py`: Tensor Basics
+- `Lec 3.py`: Autograd
+- `Lec 4.py`: Backpropagation
