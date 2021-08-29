@@ -9,3 +9,4 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 - `Lec 2.py`: Tensor Basics
 - `Lec 3.py`: Autograd
 - `Lec 4.py`: Backpropagation
+- `Lec 5.py`: Gradient Descent
