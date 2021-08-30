@@ -10,3 +10,4 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 - `Lec 3.py`: Autograd
 - `Lec 4.py`: Backpropagation
 - `Lec 5.py`: Gradient Descent
+- `Lec 6.py`: Training Pipeline
