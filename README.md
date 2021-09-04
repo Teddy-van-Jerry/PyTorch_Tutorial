@@ -11,3 +11,4 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 - `Lec 4.py`: Backpropagation
 - `Lec 5.py`: Gradient Descent
 - `Lec 6.py`: Training Pipeline
+- `Lec 7.py`: Linear Regression
