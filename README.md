@@ -12,3 +12,4 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 - `Lec 5.py`: Gradient Descent
 - `Lec 6.py`: Training Pipeline
 - `Lec 7.py`: Linear Regression
+- `Lec 8.py`: Logistic Regression
