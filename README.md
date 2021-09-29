@@ -13,5 +13,6 @@ PyTorch Tutorial Sample Coded by Teddy van Jerry.
 - `Lec 6.py`: Training Pipeline
 - `Lec 7.py`: Linear Regression
 - `Lec 8.py`: Logistic Regression
+- `Lec 9.py`: Dataset and Dataloader
 - `Lec 11.py`: Softmax and Crossentropy
 - `Lec 13.py`: Feed Forward Net
