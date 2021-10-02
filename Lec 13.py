@@ -16,7 +16,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # hyoer parameters
 input_size = 784 # 28 * 28
-hidden_size = 100
+hidden_size = 500
 num_classes = 10
 num_epochs = 2
 batch_size = 100
@@ -50,7 +50,7 @@ class NeuralNet(nn.Module):
         out = self.l2(out)
         return out
 
-model = NeuralNet(input_size, hidden_size, num_classes)
+model = NeuralNet(input_size, hidden_size, num_classes).to(device)
 
 # loss and optimizer
 criterion = nn.CrossEntropyLoss()
@@ -81,7 +81,7 @@ for epoch in range(num_epochs):
 with torch.no_grad():
     n_correct = 0
     n_samples = 0
-    for images, label in test_loader:
+    for images, labels in test_loader:
         images = images.reshape(-1, 28 * 28).to(device)
         labels = labels.to(device)
         outputs = model(images)
